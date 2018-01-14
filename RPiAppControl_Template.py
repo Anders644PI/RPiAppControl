@@ -3,10 +3,10 @@ import pyrebase
 
 # Firebase Configuration
 config = {
-  "apiKey": "apiKey", #----- Change to customize! -----
-  "authDomain": "[YOUR PROJECT ID].firebaseapp.com", #----- Change to customize! -----
-  "databaseURL": "[YOUR PROJECT ID].firebaseio.com", #----- Change to customize! -----
-  "storageBucket": "[YOUR PROJECT ID].appspot.com" #----- Change to customize! -----
+  "apiKey": "[your_apiKey]", #----- Change to customize! -----
+  "authDomain": "[your_project_id].firebaseapp.com", #----- Change to customize! -----
+  "databaseURL": "https://[your_project_id].firebaseio.com", #----- Change to customize! -----
+  "storageBucket": "[your_project_id].appspot.com" #----- Change to customize! -----
 }
 
 firebase = pyrebase.initialize_app(config)

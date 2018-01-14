@@ -9,10 +9,10 @@ blinkt.set_clear_on_exit()
 
 # Firebase Configuration
 config = {
-  "apiKey": "apiKey",
-  "authDomain": "[YOUR PROJECT ID].firebaseapp.com",
-  "databaseURL": "[YOUR PROJECT ID].firebaseio.com",
-  "storageBucket": "[YOUR PROJECT ID].appspot.com"
+  "apiKey": "[your_apiKey]",
+  "authDomain": "[your_project_id].firebaseapp.com",
+  "databaseURL": "[your_project_id].firebaseio.com",
+  "storageBucket": "[your_project_id].appspot.com"
 }
 
 firebase = pyrebase.initialize_app(config)
